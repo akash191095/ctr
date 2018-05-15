@@ -2,7 +2,7 @@ gems:
 - jekyll-seo-tag
 
 plugins:
-  - jekyll-seo-tag
+- jekyll-seo-tag
   
 title: Online CTR Calculator
 description: Online CTR/Click Through Rate Calculator, Responsive Website - Use on any device or when on the go.
