@@ -79,35 +79,6 @@ input[type=number] {
     color: black;
 }
 
-/* Bookmark */
-
-#bookmark-this {
-    color: #9E9E9E;
-    font-size: .8em;
-}
-
-
-#bookmark-this:hover {
-    color: black;
-    /* background-color: #757575; */
-    /* border: 1px solid #757575; */
-    text-decoration: none;
-}
-
-#bookmark-this:active {
-    /* background-color: #757575; */
-    /* border: 1px solid #757575; */
-    color: black;
-    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
-}
-
-#bookmark-this img {
-    position: relative;
-    max-width: 10px;
-    top: 3px;
-    display: none;
-}
 
 /* Media Queries */
 
