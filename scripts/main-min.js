@@ -4,5 +4,4 @@ function getimpressions(){return $impressionsVal=$impressions.val()}
 function updateProgressBar(){$(".progress-bar").css("width",getCtr()+"%");$(".progress-bar").attr("aria-valuenow",getCtr()+"%")}
 $impressions.keyup(function(){if(getClicks()>=1){$ctr.text(getCtr())}
 updateProgressBar()});$clicks.keyup(function(){if(getimpressions()>=1){$ctr.text(getCtr())}
-updateProgressBar()});jQuery(function($){$('#bookmark-this').click(function(e){var bookmarkURL=window.location.href;var bookmarkTitle=document.title;if('addToHomescreen' in window&&addToHomescreen.isCompatible){addToHomescreen({autostart:!1,startDelay:0}).show(!0)}else if(window.sidebar&&window.sidebar.addPanel){window.sidebar.addPanel(bookmarkTitle,bookmarkURL,'')}else if((window.sidebar&&/Firefox/i.test(navigator.userAgent))||(window.opera&&window.print)){$(this).attr({href:bookmarkURL,title:bookmarkTitle,rel:'sidebar'}).off(e);return!0}else if(window.external&&('AddFavorite' in window.external)){window.external.AddFavorite(bookmarkURL,bookmarkTitle)}else{alert('Press '+(/Mac/i.test(navigator.platform)?'Cmd':'Ctrl')+'+D to bookmark this page.')}
-return!1})})
+updateProgressBar()})
