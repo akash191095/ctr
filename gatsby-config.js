@@ -8,18 +8,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Click Through Ratio Calculator`,
-        short_name: `CTR Calculator`,
-        start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
-        display: `standalone`,
-        icon: "src/styles/icon.png",
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -31,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Click Through Ratio Calculator`,
+        short_name: `CTR Calculator`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#333`,
+        theme_color: `#111`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
