@@ -1,0 +1,64 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  max-height: 100%;
+}
+
+.calculator {
+  width: 50em;
+  height: 30em;
+  max-width: 100%;
+  max-height: 95vh;
+  border-radius: 15px;
+  box-shadow: -1px 1px 26px -5px rgba(0, 0, 0, 0.47);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  padding: 3em;
+  margin: 2em 0;
+}
+
+.inputContainer {
+  padding: 15px 0px;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.inputContainer > div {
+  width: 100%;
+  max-width: 30em;
+}
+
+.inputContainer > input {
+  width: 100%;
+  margin-top: 0.7em;
+}
+
+.calculator > p {
+  align-self: flex-end;
+  margin-top: auto;
+  font-size: 2em;
+}
+
+.calculator > p > strong {
+  font-size: 1.3em;
+}
+
+.calculator label {
+  font-size: 1.3em;
+}
+
+@media (max-width: 650px) {
+  .calculator {
+    height: 60vh;
+    align-self: start;
+    padding: 2em;
+    margin: 2em 0;
+  }
+}
