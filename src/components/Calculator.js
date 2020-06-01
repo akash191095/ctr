@@ -33,7 +33,7 @@ const Calculator = () => {
         <div className="inputContainer">
           <TextField
             label="Clicks"
-            variant="outlined"
+            variant="standard"
             type="number"
             id="clicks"
             value={clicks}
@@ -47,7 +47,7 @@ const Calculator = () => {
         </div>
         <div className="inputContainer">
           <TextField
-            variant="outlined"
+            variant="standard"
             label="impressions"
             type="number"
             id="impressions"

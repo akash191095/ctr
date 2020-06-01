@@ -26,18 +26,13 @@ main {
 
 .inputContainer {
   padding: 15px 0px;
-  width: 100%;
   margin-bottom: 0.5em;
 }
 
-.inputContainer > div {
+.inputContainer,
+.inputContainer > div,
+.inputContainer input {
   width: 100%;
-  max-width: 30em;
-}
-
-.inputContainer > input {
-  width: 100%;
-  margin-top: 0.7em;
 }
 
 .calculator > p {
