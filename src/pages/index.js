@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Calculator from "../components/Calculator"
 import useTheme from "../utils/useTheme"
+import AboutCalculator from "../components/AboutCalculator"
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <Layout>
         <SEO title="Calculator" />
         <Calculator />
+        <AboutCalculator />
       </Layout>
     </ThemeProvider>
   )

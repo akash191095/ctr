@@ -25,7 +25,7 @@ const Calculator = () => {
   }, [clicks, impressions])
 
   return (
-    <>
+    <section>
       <Typography variant="h4" component="h1">
         Click Through Rate Calculator
       </Typography>
@@ -64,7 +64,7 @@ const Calculator = () => {
           CTR is: <strong>{`${result}%`}</strong>
         </Typography>
       </Paper>
-    </>
+    </section>
   )
 }
 
