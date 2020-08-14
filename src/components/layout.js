@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           <Typography variant="subtitle1" component="p">
-            Made with React, Gatsby and Material UI
+            Made with 💜, Using React, Gatsby and Material UI
           </Typography>
           <Typography variant="subtitle1" component="p">
             <MUILink component="a" href="mailto:ppoakse@gmail.com">
