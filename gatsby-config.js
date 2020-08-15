@@ -4,7 +4,7 @@ module.exports = {
     title: `Click Through Ratio (CTR) Calculator`,
     description: `Calculate your click through ratio and find out how your ads are doing`,
     author: `@akash191095`,
-    siteUrl: `https://akash191095.github.io/`,
+    siteUrl: `https://akashing.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
